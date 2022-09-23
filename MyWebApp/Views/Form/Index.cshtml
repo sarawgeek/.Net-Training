@@ -1,0 +1,17 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Person
+
+    <form  asp-action="Show" asp-controller="Form" method="POST">
+        <label asp-for="Name">FullName:</label><br />
+        <input asp-for="Name" placeholder="Your Full Name Here" /><br />
+        <label asp-for="Age">Age:</label><br />
+        <input asp-for="Age" /><br />
+        <label asp-for="Id">ID:</label><br />
+        <input asp-for="Id" /><br />
+        <input type="submit" value="Submit">
+    </form>
+   
